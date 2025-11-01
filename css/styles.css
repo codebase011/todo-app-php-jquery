@@ -1,0 +1,14 @@
+#todo-table-body tr {
+    cursor: pointer;
+
+    &:hover td {
+        background-color: #c8c8c8;
+        color: rgb(0, 0, 0);
+    }
+}
+
+.form-control[readonly] {
+  background-color: #c0bfff;  /* gris claro de Bootstrap */
+  opacity: 1;                 /* evita que se aclare demasiado */
+  cursor: not-allowed;        /* opcional */
+}
