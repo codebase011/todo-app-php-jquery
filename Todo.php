@@ -4,6 +4,7 @@ class Todo
 {
   // El id se genera automáticamente ya que es AUTO_INCREMENT
   private $id;
+  // La fecha de creación se genera automáticamente en el constructor
   private $created_at;
 
   public function __construct(

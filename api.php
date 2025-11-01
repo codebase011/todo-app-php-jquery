@@ -6,7 +6,6 @@ error_reporting(E_ALL);              // Reporta TODOS los tipos de error
 ini_set('html_errors', 1);         // evita <br><b>Warning</b>...
 ini_set('log_errors', 1);          // registra errores en log
 
-
 require_once 'Todo.php';
 require_once 'TodoDAO.php';
 
