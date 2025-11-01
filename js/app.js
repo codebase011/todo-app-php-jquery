@@ -114,7 +114,7 @@ $(document).ready(function () {
             // data: { title: title, description: description },
             success: function (response) {
                 console.log('Todo created:', response);
-                nextId = response.nextId;
+                nextId = response.nextId + 1;
                 $('#id').val(nextId);
                 $('#title').val('').focus();           // Clear fields
                 $('#description').val('');
