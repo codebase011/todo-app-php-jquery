@@ -1,4 +1,3 @@
-# todo-app-php-jquery
 # Todo App
 
 A simple todo list application built with PHP and jQuery, demonstrating basic CRUD operations without using a framework.
